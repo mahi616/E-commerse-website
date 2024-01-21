@@ -1,0 +1,60 @@
+#main-div{
+    display: flex;
+}
+#left{
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: 80vh;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+#left img{
+    width: 70%;
+    height: 100%;
+}
+#right{
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: 80vh;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+h1{
+    margin-top: 20%;
+    text-align: center;
+}
+p{
+    margin-top: 50px;
+    text-align: center;
+}
+#price {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+button{
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: rgb(16, 150, 105);
+    text-align: center;
+    width: 90%;
+    padding: 2%;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(177, 220, 205);
+    border: 2.5px solid rgb(16, 150, 105);
+}
+button:hover a{
+    background-color: rgb(177, 220, 205);
+    color: rgb(16, 150, 105);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
