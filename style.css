@@ -341,8 +341,10 @@ button{
     height: 15%;
     width: 90%;
     border-radius: 5px;
-    margin-left: 55px;
-    margin-top: -15%;
+    margin: 0 auto;
+    display: block;
+    margin-left: 8%;
+    height: 15%;
     background-color: rgb(69, 69, 218);
 }
 #contact #contact-input #submit:hover{
